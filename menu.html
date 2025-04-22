@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Menu - Heavy Snacks Bite</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Heavy Snacks Bite</h1>
+            <p>Where flavor meets satisfaction</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="About.html">About<i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="about.html#history">Our History</a></li>
+                        <li><a href="about.html#team">Our Team</a></li>
+                        <li><a href="about.html#values">Our Values</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="menu.html" class="active">Menu <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="menu.html#burgers">Burgers</a></li>
+                        <li><a href="menu.html#pizzas">Pizzas</a></li>
+                        <li><a href="menu.html#snacks">Snacks</a></li>
+                        <li><a href="menu.html#drinks">Drinks</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>Our Menu</h1>
+            <p>Discover our delicious offerings</p>
+        </section>
+
+        <section class="menu-categories">
+            <div class="category-tabs">
+                <button class="tab-btn active" data-category="burgers">Burgers</button>
+                <button class="tab-btn" data-category="pizzas">Pizzas</button>
+                <button class="tab-btn" data-category="snacks">Snacks</button>
+                <button class="tab-btn" data-category="drinks">Drinks</button>
+            </div>
+
+            <div id="burgers" class="menu-section active">
+                <h2>Burgers</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="item-img">
+                            <img src="HEAVY SNACKS IMAGES/Red hot chiken burger.jpg" alt="Classic Burger">
+                        </div>
+                        <div class="item-info">
+                            <h3>Classic Heavy Burger</h3>
+                            <p class="description">Our signature beef patty with lettuce, tomato, onion, and special sauce</p>
+                            <p class="price">Shs 15000</p>
+                            <button class="add-to-cart">Add to Order</button>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-img">
+                            <img src="HEAVY SNACKS IMAGES/Bacon burger.jpg" alt="Bacon Cheeseburger">
+                        </div>
+                        <div class="item-info">
+                            <h3>Bacon Cheeseburger</h3>
+                            <p class="description">Double beef patties with crispy bacon, cheddar, and BBQ sauce</p>
+                            <p class="price">Shs 12000</p>
+                            <button class="add-to-cart">Add to Order</button>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-img">
+                            <img src="HEAVY SNACKS IMAGES/veg burger.jpg" alt="Veggie Burger">
+                        </div>
+                        <div class="item-info">
+                            <h3>Veggie Delight</h3>
+                            <p class="description">House-made veggie patty with avocado, sprouts, and garlic aioli</p>
+                            <p class="price">shs 85000</p>
+                            <button class="add-to-cart">Add to Order</button>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-img">
+                            <img src="HEAVY SNACKS IMAGES/spicy chicken brger.jpg" alt="Spicy Chicken Burger">
+                        </div>
+                        <div class="item-info">
+                            <h3>Spicy Chicken</h3>
+                            <p class="description">Crispy chicken breast with jalapeños, pepper jack, and chipotle mayo</p>
+                            <p class="price">Shs 25000</p>
+                            <button class="add-to-cart">Add to Order</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="pizzas" class="menu-section">
+                <h2>Pizzas</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="item-img">
+                            <img src="HEAVY SNACKS IMAGES/Pesto Margherita Pizza.jpg" alt="Margherita Pizza">
+                        </div>
+                        <div class="item-info">
+                            <h3>Classic Margherita</h3>
+                            <p class="description">Tomato sauce, fresh mozzarella, basil, and olive oil</p>
+                            <p class="price">SHS 45000</p>
+                            <button class="add-to-cart">Add to Order</button>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-img">
+                            <img src="HEAVY SNACKS IMAGES/pepperoni pizza.jpg" alt="Pepperoni Pizza">
+                        </div>
+                        <div class="item-info">
+                            <h3>Pepperoni Feast</h3>
+                            <p class="description">Double pepperoni with extra cheese and our signature sauce</p>
+                            <p class="price">Shs 65000</p>
+                            <button class="add-to-cart">Add to Order</button>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-img">
+                            <img src="HEAVY SNACKS IMAGES/BBQ CHICKEN PIZZA.jpg" alt="BBQ Chicken Pizza">
+                        </div>
+                        <div class="item-info">
+                            <h3>BBQ Chicken</h3>
+                            <p class="description">Grilled chicken, red onions, cilantro, and BBQ sauce</p>
+                            <p class="price">Shs 70000</p>
+                            <button class="add-to-cart">Add to Order</button>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-img">
+                            <img src="HEAVY SNACKS IMAGES/fresh garden.jpg" alt="Veggie Pizza">
+                        </div>
+                        <div class="item-info">
+                            <h3>Garden Fresh</h3>
+                            <p class="description">Bell peppers, mushrooms, olives, onions, and artichokes</p>
+                            <p class="price">SHS 40000</p>
+                            <button class="add-to-cart">Add to Order</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="snacks" class="menu-section">
+                <h2>Snacks & Sides</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="item-img">
+                            <img src="HEAVY SNACKS IMAGES/french fries.jpg" alt="French Fries">
+                        </div>
+                        <div class="item-info">
+                            <h3>Loaded Fries</h3>
+                            <p class="description">Crispy fries topped with cheese, bacon, and green onions</p>
+                            <p class="price">SHS 45000</p>
+                            <button class="add-to-cart">Add to Order</button>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-img">
+                            <img src="HEAVY SNACKS IMAGES/chiken wigs.jpg" alt="Chicken Wings">
+                        </div>
+                        <div class="item-info">
+                            <h3>Spicy Wings</h3>
+                            <p class="description">Crispy chicken wings with your choice of sauce</p>
+                            <p class="price">35000</p>
+                            <button class="add-to-cart">Add to Order</button>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-img">
+                            <img src="HEAVY SNACKS IMAGES/caesa salads.jpg" alt="Caesar Salad">
+                        </div>
+                        <div class="item-info">
+                            <h3>Caesar Salad</h3>
+                            <p class="description">Fresh romaine, croutons, parmesan, and Caesar dressing</p>
+                            <p class="price">Shs 50000</p>
+                            <button class="add-to-cart">Add to Order</button>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-img">
+                            <img src="HEAVY SNACKS IMAGES/onion rigs.jpg" alt="Onion Rings">
+                        </div>
+                        <div class="item-info">
+                            <h3>Crispy Onion Rings</h3>
+                            <p class="description">Beer-battered onion rings with ranch dipping sauce</p>
+                            <p class="price">Shs 25000</p>
+                            <button class="add-to-cart">Add to Order</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="drinks" class="menu-section">
+                <h2>Drinks</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="item-img">
+                            <img src="HEAVY SNACKS IMAGES/softs drinks.jpg" alt="Soft Drinks">
+                        </div>
+                        <div class="item-info">
+                            <h3>Fountain Drinks</h3>
+                            <p class="description">Coke, Diet Coke, Sprite, Dr. Pepper, Lemonade</p>
+                            <p class="price">Shs 5000</p>
+                            <button class="add-to-cart">Add to Order</button>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-img">
+                            <img src="HEAVY SNACKS IMAGES/craft beer.jpg" alt="Craft Beer">
+                        </div>
+                        <div class="item-info">
+                            <h3>Craft Beers</h3>
+                            <p class="description">Selection of local and imported craft beers</p>
+                            <p class="price">shs 22000</p>
+                            <button class="add-to-cart">Add to Order</button>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-img">
+                            <img src="HEAVY SNACKS IMAGES/signature cocktail.jpg" alt="Signature Cocktails">
+                        </div>
+                        <div class="item-info">
+                            <h3>Signature Cocktails</h3>
+                            <p class="description">Ask your server about our seasonal cocktail specials</p>
+                            <p class="price">shs 20000</p>
+                            <button class="add-to-cart">Add to Order</button>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="item-img">
+                            <img src="HEAVY SNACKS IMAGES/milkshak vaniela.jpg" alt="Milkshakes">
+                        </div>
+                        <div class="item-info">
+                            <h3>Hand-Spun Milkshakes</h3>
+                            <p class="description">Vanilla, chocolate, strawberry, or cookies & cream</p>
+                            <p class="price">Shs 14000</p>
+                            <button class="add-to-cart">Add to Order</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Opening Hours</h3>
+                <p>Monday - Friday: 11am - 10pm</p>
+                <p>Saturday - Sunday: 10am - 11pm</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="About.html">About us</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Food Street, Fort kitumba</p>
+                <p><i class="fas fa-phone"></i> (256) 700-613559</p>
+                <p><i class="fas fa-envelope"></i> info@heavysnacksbite.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Heavy Snacks Bite. All Rights Reserved.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
